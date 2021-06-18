@@ -1,4 +1,4 @@
-# Spartan theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-spartan-projects.svg)](https://badge.fury.io/js/jsonresume-theme-spartan-projects
+# Spartan theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-spartan-projects.svg)](https://badge.fury.io/js/jsonresume-theme-spartan-projects)
 
 _Forked from [jsonresume-theme-spartan](https://github.com/phoinixi/jsonresume-theme-spartan.git) by Francesco Esposito_
 
