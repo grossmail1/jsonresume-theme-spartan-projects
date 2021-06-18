@@ -176,6 +176,44 @@
 				</section>
 			{{/if}}
 
+		{{#if resume.projects.length}}
+					<section class="section">
+						<h2 class='section-title'>Projects</h2>
+						<section id="work">
+						{{#each resume.projects}}
+							{{#if name}}
+							<header>
+								<h3 class="name">
+									{{name}}
+									{{#if snippet}}
+										<span class="snippet">
+											&nbsp;-&nbsp;{{snippet}}
+										</span>
+									{{/if}}
+								</h3>
+							</header>
+							{{/if}}
+							<div class="item">
+
+							{{#if website}}
+							<div class="website">
+								<a href="{{website}}">{{website}}</a>
+							</div>
+							{{/if}}
+					
+							{{#if highlights.length}}
+							<ul class="highlights">
+								{{#each highlights}}
+								<li class="highlight-item">{{.}}</li>
+								{{/each}}
+							</ul>
+							{{/if}}
+						</div>
+						{{/each}}
+						</section>
+					</section>
+				{{/if}}
+			
 			{{#if resume.education.length}}
 				<section class="section">
 					<h2 class='section-title'>Education</h2>

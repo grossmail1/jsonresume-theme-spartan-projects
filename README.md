@@ -1,9 +1,13 @@
-# Spartan theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-spartan.svg)](http://badge.fury.io/js/jsonresume-theme-spartan)
+# Spartan theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-spartan-projects.svg)](https://badge.fury.io/js/jsonresume-theme-spartan-projects
 
-This is a theme for JSON Resume. It is available via npm:
+_Forked from [jsonresume-theme-spartan](https://github.com/phoinixi/jsonresume-theme-spartan.git) by Francesco Esposito_
+
+This is an extended version of the json resume theme spartan. I wanted to add a new section calling out specific projects that I worked on:
+
 ```
-npm install jsonresume-theme-spartan
+npm install jsonresume-theme-spartan-projects
 ```
+
 [DEMO](https://phoinixi.github.io/website/resume/spartan)
 
 ## Getting started
@@ -17,6 +21,7 @@ Go ahead and install it:
 ```
 sudo npm install -g resume-cli
 ```
+
 ### Serve theme
 
 While inside the theme folder, simply run:
@@ -54,6 +59,7 @@ sudo apt-get install nodejs-legacy npm
 ```
 
 Or if you're on OSX and got [Homebrew](http://brew.sh/) installed:
+
 ```
 brew install node
 ```
@@ -61,3 +67,10 @@ brew install node
 ## License
 
 Available under the [MIT license](http://opensource.org/licenses/mit-license.php).
+
+## Changes to original
+
+- Projects
+
+  - Added a projects section to highlight work done
+  - See the resume.example.json for the updates the schema
