@@ -122,14 +122,16 @@
 			{{#if resume.work.length}}
 				<section class="section">
 					<h2 class='section-title'>Experience</h2>
-					{{#if breakBefore}}
-						<section id="work" class="page-break">
-					{{else}}
 						<section id="work">
-					{{/if}}
-					{{#each resume.work}}
+
+				{{#each resume.work}}
+
 						{{#if company}}
-						<header>
+							{{#if breakBefore}}
+								<header class="page-break">
+							{{else}}
+								<header>
+							{{/if}}
 							<h3 class="name">
 								{{company}}
 							</h3>

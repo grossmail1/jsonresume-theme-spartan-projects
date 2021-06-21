@@ -1,152 +1,169 @@
 {
-	"basics": {
-		"name": "John Doe",
-		"label": "Junior Programmer",
-		"picture": "https://pbs.twimg.com/profile_images/773151694934847488/g0aE4CJ6_400x400.jpg",
-		"email": "John.Doe@gmail.com",
-		"phone": "+11 123 123 123",
-		"summary": "Some one word summary.\nOr you can use new lines for paragraphs.",
-		"location": {
-			"address": "1 Smith St",
-			"postalCode": "1010",
-			"city": "LA",
-			"countryCode": "USA",
-			"region": "California"
-		},
-		"profiles": [
-			{
-				"network": "LinkedIn",
-				"username": "John Doe",
-				"url": "https://www.linkedin.com/in/example/"
-			},
-			{
-				"network": "GitHub",
-				"username": "John-Doe",
-				"url": "https://github.com/example"
-			},
-			{
-				"network": "Twitter",
-				"username": "john",
-				"url": "http://twitter.com/john"
-			}
-		]
-	},
-	"work": [
-		{
-			"company": "Some company 1",
-      "position": "Developer",
-      "website": "http://company.com",
-			"startDate": "2018-07-01",
-			"endDate": "2019-12-05",
-			"present": true,
-			"summary": "Worked for the business.",
-			"highlights": ["Highlight 1", "Highlight 2", "Highlight 3", "Highlight 4"]
-		},
-		{
-			"break-before": true,
-			"company": "Some company 2",
-			"position": "Developer",
-			"startDate": "2018-01-01",
-			"endDate": "2019-12-05",
-			"present": false,
-			"summary": "Worked for the business.",
-			"highlights": ["Highlight 1", "Highlight 2", "Highlight 3", "Highlight 4"]
-		}
-	],
-	"projects": [
+  "basics": {
+    "name": "Andrew Gross",
+    "label": "Senior Frontend Developer",
+    "picture": "https://www.dillonsoftware.com/img/team/andy-gross.jpg",
+    "email": "grossmail1@gmail.com",
+    "phone": "(406) 270-8435",
+    "summary": "I love frontend development. I like to solve difficult problems and see my work come to life in the browser. I also enjoy spending time with my family outside.",
+    "location": {
+      "address": "2265 N Mission Dr",
+      "postalCode": "MT 59901",
+      "city": "Kalispell",
+      "countryCode": "US",
+      "region": "Montana"
+    },
+    "profiles": [
     {
-      "name": "Organization 1",
-			"company": "My First Company",
-      "snippet": "An organization",
-      "website": "https://www.example1.com",
+      "network": "Github",
+      "username": "grossmail1",
+      "url": "https://github.com/grossmail1"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "Andrew Gross",
+      "url": "https://www.linkedin.com/in/andrew-gross-570229214/"
+    }]
+  },
+  "work": [
+    {
+      "company": "Dillon Software",
+      "position": "Senior Frontend Developer",
+      "website": "https://dillonsoftware.com",
+      "startDate": "2017-09-03",
+      "summary": "Leading team of React devs to maintain multiple SPAs in the ecosystem",
       "highlights": [
-        "Built the site"
+        "Learning the strengths of everyone on my team to better utilize each person",
+        "Converting many of our rest based endpoints to a Node GraphQL architecture.",
+				"Architecting a React application with Millions of Product views and dozens of different browsing pages."
       ]
     },
     {
-      "name": "Organization 2",
-			"company": "My Second Company",
-      "snippet": "A second organization",
-      "website": "https://www.example2.com",
+      "company": "Dillon Software",
+      "position": "Frontend Developer",
+      "website": "https://dillonsoftware.com",
+      "startDate": "2015-06-03",
+      "endDate": "2017-09-03",
+      "summary": "Converting existing Java/JSP application to a Single Page Application(SPA) using react/redux",
       "highlights": [
-        "Built the site again"
+				"Created a custom react site using React/Redux from the ground up that has over a hundred thousand daily users.",
+        "Creating various media players(audio, video, ebook, and comic) from the ground up using react"
+      ]
+    },
+    {
+    "breakBefore": true,
+    "company": "Dillon Software",
+    "position": "Junior Backend Engineer",
+    "website": "https://dillonsoftware.com",
+    "startDate": "2014-12-15",
+    "endDate": "2015-06-03",
+    "summary": "Building REST interfaces using Java and SQL. Multiple services were used by various frontend systems for providing data from user information, playback positions, to vendor reporting.",
+    "highlights": [
+      "Built a solid foundation on the Requirements to create a Java REST Service",
+			"Used postgress with standard CRUD opperations",
+			"Learned how to use Stripes and JSTL to create web apps in Java"
+    ]
+  }
+  ],
+  "projects": [
+    {
+      "name": "Hoopla Digital",
+      "company": "Dillon Software",
+      "snippet": "A streaming service for library patrons",
+      "website": "https://www.hoopladigital.com",
+      "highlights": [
+        "Used React, context and hooks to make custom media players.",
+				"Using DRM(Fairplay, HLS, Dash) and a custom UIs built with react to play back music, audiobooks, movies and television episodes.",
+				"Used Graphql, Tailwind CSS along with Styled Components to create a custom browsing experience"
+      ]
+    },
+    {
+      "name": "Montana MMIP",
+      "company": "Dillon Software",
+      "snippet": "Assisting local authorities with finding missing indigenous people.",
+      "website": "https://www.mmipmt.com",
+      "highlights": [
+        "Built using React, Tailwind CSS, and Graphql",
+				"The public facing site is used to report people missing",
+				"The admin side of the app is used to manage cases, report information to local authorities, and get analytics and reports about cases"
+      ]
+    },
+    {
+      "name": "Howe's Fishing",
+      "company": "Personal Project",
+      "snippet": "Web app for scheduling and trip management",
+      "website": "https://admin-dev.howesfishing.com/",
+      "highlights": [
+        "A full stack application using Node, express, and React/Redux, with custom authentication",
+				"Administrators are able to create new trips, check guide availability on a custom calendar, and manage users and guides",
+				"Guides can login to the site to see trips they are scheduled for as well as block out availability",
+				"Custom emails and SMS text messages are sent to clients and guides when a trip is booked as well as reminding them before the trip"
+      ]
+    }
+    ,
+    {
+      "name": "Pinnacle Debit Card",
+      "company": "Dillon Software",
+      "snippet": "Website for marketing and signup flow for debit cards",
+      "website": "https://www.pinnacledebitcard.com/",
+      "highlights": [
+        "Marketing site generated with React, Styled Components, served with Netlify",
+				"Card Creation form with payments through Stripe, and multiple SECURE backend calls with custom token generation for creating a new debit card"
       ]
     }
   ],
-	"education": [
-		{
-			"institution": "Some University",
-			"area": "Software engineering",
-			"studyType": "Bachelor",
-			"startDate": "2017-01-01",
-			"endDate": "2019-12-31",
-			"present": false,
-			"summary": "I studied here",
-			"gpa": "4.0",
-			"courses": ["Programming - 101"]
-		}
-	],
-	"skills": [
-		{
-			"name": "Languages",
-			"level": "",
-			"keywords": ["JavaScript", "TypeScript", "Python", "Java"]
-		},
-		{
-			"name": "Frontend Frameworks",
-			"level": "",
-			"keywords": ["ReactJs", "Angular"]
-		},
-		{
-			"name": "Backend Frameworks",
-			"level": "",
-			"keywords": ["Express", "Spring"]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Native speaker"
-		}
-	],
-	"interests": [
-		{
-			"name": "Wildlife",
-			"keywords": ["Ferrets", "Unicorns"]
-		}
-	],
-	"references": [
-		{
-			"name": "Jane Doe",
-			"reference": "Reference..."
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "Organization",
-			"position": "Volunteer",
-			"website": "http://organization.com/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description...",
-			"highlights": ["Awarded 'Volunteer of the Month'"]
-		}
-	],
-	"awards": [
-		{
-			"title": "Award",
-			"date": "2014-11-01",
-			"awarder": "Company",
-			"summary": "There is no spoon."
-		}
-	],
-	"publications": [
-		{
-			"name": "Publication",
-			"publisher": "Company",
-			"releaseDate": "2014-10-01",
-			"website": "http://publication.com",
-			"summary": "Description......"
-		}
-	]
+  "education": [{
+    "institution": "Flathead Valley Community College",
+    "area": "Computer Science",
+    "studyType": "Associate Science",
+    "startDate": "2012-08-25",
+    "endDate": "2015-06-01",
+    "gpa": "3.87"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "React",
+      "Redux",
+      "CSS/SCSS Modules",
+      "Styled Components",
+      "Tailwind CSS",
+      "Javascript",
+      "TypeScript",
+      "D3"
+    ]
+  },
+  {
+    "name": "Server Development",
+    "level": "advanced",
+    "keywords": [
+      "Java",
+      "Node",
+      "GraphQL",
+      "Express",
+      "pSQL",
+      "MySQL"
+    ]
+  },
+  {
+    "name": "Build Tools",
+    "level": "Intermediate",
+    "keywords": [
+      "S3",
+      "Codebuild",
+      "CodePipeline",
+      "Jenkins",
+      "Heroku",
+      "Netlify"
+    ]
+  }],
+  "references": [{
+    "name": "(406) 471-4714",
+    "reference": "Shawn Watts - Project Manager"
+  },
+  {
+    "name": "(303) 807-3025",
+    "reference": "Billy Bacon - System Architect"
+  }]
 }
