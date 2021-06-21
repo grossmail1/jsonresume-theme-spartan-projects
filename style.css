@@ -539,6 +539,7 @@ h2.section-title {
     margin-bottom: 1em;
     margin-top: 1em;
     border-bottom: 1px solid #eee;
+    break-inside: avoid-page;
   }
 
   .section:last-of-type {
@@ -595,7 +596,7 @@ h2.section-title {
   }
 }
 
-h3.name span.snippet {
+h3.name span.company {
   color: #757575;
   font-weight: 400;
   font-size: 0.9rem;
@@ -603,4 +604,14 @@ h3.name span.snippet {
 
 .highlights .highlight-item {
   margin-bottom: 3px;
+}
+
+#work header {
+  padding-bottom: 5px;
+}
+
+#work p.snippet {
+  color: #757575;
+  font-weight: 400;
+  font-size: 0.9rem;
 }

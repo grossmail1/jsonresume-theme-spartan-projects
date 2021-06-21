@@ -55,6 +55,7 @@
 	"projects": [
     {
       "name": "Organization 1",
+			"company": "My First Company",
       "snippet": "An organization",
       "website": "https://www.example1.com",
       "highlights": [
@@ -63,6 +64,7 @@
     },
     {
       "name": "Organization 2",
+			"company": "My Second Company",
       "snippet": "A second organization",
       "website": "https://www.example2.com",
       "highlights": [

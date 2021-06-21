@@ -185,13 +185,18 @@
 							<header>
 								<h3 class="name">
 									{{name}}
-									{{#if snippet}}
-										<span class="snippet">
-											&nbsp;-&nbsp;{{snippet}}
+									{{#if company}}
+										<span class="company">
+											&nbsp;-&nbsp;{{company}}
 										</span>
 									{{/if}}
 								</h3>
 							</header>
+							{{#if snippet}}
+									<p class="snippet">
+										{{snippet}}
+									</p>
+								{{/if}}
 							{{/if}}
 							<div class="item">
 

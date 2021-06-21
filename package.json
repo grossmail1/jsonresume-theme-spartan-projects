@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-spartan-projects",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Minimal, clean and elegant theme for JSON Resume",
   "author": "Andrew Gross <grossmail1@gmail.com>",
   "repository": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "handlebars": ">=4.5.3",
     "moment": ">=2.24.0"
-  }
+  },
+  "scripts": {
+		"start": "npm run link-resume && resume serve",
+		"link-resume": "ln -sF resume.example.json resume.json"
+	}
 }
