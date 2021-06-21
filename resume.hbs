@@ -188,7 +188,11 @@
 						<section id="work">
 						{{#each resume.projects}}
 							{{#if name}}
-							<header>
+								{{#if breakBefore}}
+									<header class="page-break">
+								{{else}}
+									<header>
+								{{/if}}
 								<h3 class="name">
 									{{name}}
 									{{#if company}}
