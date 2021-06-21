@@ -615,3 +615,8 @@ h3.name span.company {
   font-weight: 400;
   font-size: 0.9rem;
 }
+
+.page-break {
+  margin-top: 15px;
+  break-before: always;
+}
